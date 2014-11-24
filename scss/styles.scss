@@ -1,0 +1,150 @@
+
+$dark: #2C3E50;  
+$red: #E74C3C;  
+$white: #ECF0F1;  
+$mid: #3498DB;  
+$light: #2980B9;
+
+
+
+$headerFont: Helvetica, sans-serif;
+$bodyFont: Times, serif;
+
+@import "reset";
+@import "layout";
+@import "type";
+
+
+html {background-color: $dark}
+
+article {background-color:$light; padding: 20px; margin-top: 30px; border: 1px solid $light; border-radius: 20px;}
+
+img {width:100%; border-radius: 20px;}
+
+
+
+
+
+
+
+
+
+
+h1 {color:$white; font-family:$headerFont;}
+h2 {color:$white; font-family:$bodyFont;}
+h3 {color:$white; font-family:$bodyFont;}
+ul {color:$white; font-family:$bodyFont;}
+ol {color:$white; font-family:$bodyFont;}
+p {color:$white; font-family:$bodyFont;}
+
+
+
+
+
+
+
+
+
+
+nav { width: 100%;}
+		header {
+			nav{
+				ul {font-family:$headerFont; font-size: 25px; list-style: none; padding: 10px 0px 100px 0px;}
+			}
+		}
+
+		header {
+			nav {
+				li {float: left; margin-left:5px; color: $dark; background-color: $light; border: 1px solid $light; border-radius: 10px; padding: 5px;}
+			}
+		}
+
+		header {
+			nav {
+				li a {display: block; background-color: $light; text-decoration: none; padding: .25em; color: $dark}
+			}
+		}
+
+		header {
+			nav {
+				li a:hover {display: block; background-color: $light; text-decoration: none; padding: .5em; color: $dark;}
+			}
+		}
+
+		header {
+		nav {
+			li a:visited {display: block; background-color: $light; text-decoration: none; padding: .5em; color: $dark;}
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+	h1 {color: $red; background-color: $white; padding: 10px; border: 1px solid $white; border-radius: 20px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	h1 {font-family: $headerFont; color: white; float: left; padding-bottom: 20px;}
+}
+
+footer {
+	h2 {font-family: $headerFont; color: white; float: left; padding: 50px 0px 0px 10px;}
+}
+
+		footer {
+			nav {
+				ul {font-family: $bodyFont; color: white; font-size: 12px; float: left; padding-top: 45px;}
+			}
+		}
+
+		footer {
+			nav {
+				li {float: left; margin-left:5px; color: $white;}
+			}
+		}
+
+		footer {
+			nav {
+				li a  {text-decoration: none; padding: .5em; color: $white;}
+			}
+		}
+
+		footer {
+			nav {
+				li a:hover {display: inline; text-decoration: none; padding: .5em; color: $white;}
+			}
+		}
+
+		footer {
+			nav {
+				li a:visited {text-decoration: none; padding: .5em; color: $white;}
+			}
+		}
+
+		footer {padding: 20px;}
+
+
+
+
